@@ -1,0 +1,15 @@
+{
+  "name": "io-lazy-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc ./src/io.lazy-loader.ts --outFile ./custom-build/io.lazy-loader.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "iokononyuk",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.16.4", 
+  }
+}

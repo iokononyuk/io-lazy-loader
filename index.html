@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        img {
+            display: block;
+            margin: 10px auto;
+        }
+        div {
+            height: 250px;
+        }
+    </style>
+    <script src="/io.lazy-loader.js"></script>
+    <script>
+        var loader = new IOLazyLoader({ 
+            attribute: 'data-src',
+            setAttribute: 'src',
+            loadingOffset: window.innerHeight + window.innerHeight / 2,
+            afterInit: function() {
+                console.log('Loader init');
+            },
+            beforeLoad: function(image) {
+                console.log('Image with SRC' + image.getAttribute('data-src') + ' start loading');
+            },
+            afterLoad: function(image) {
+                console.log('Image with SRC' + image.getAttribute('data-src') + ' was loaded');
+            }
+        });
+    </script>
+</head>
+<body>
+    <div><img data-src="https://via.placeholder.com/768x250?id=1" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=2" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=3" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=4" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=5" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=6" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=7" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=8" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=9" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=10" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=11" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=12" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=13" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=14" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=15" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=16" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=17" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=18" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=19" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=20" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=21" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=22" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=23" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=24" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=25" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=26" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=27" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=28" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=29" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=30" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=31" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=32" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=33" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=34" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=35" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=36" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=37" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=38" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=39" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=40" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=41" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=42" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=43" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=44" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=45" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=46" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=47" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=48" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=49" alt=""></div>
+    <div><img data-src="https://via.placeholder.com/768x250?id=50" alt=""></div>
+</body>
+</html>

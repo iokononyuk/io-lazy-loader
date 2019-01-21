@@ -1,0 +1,11 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "es5",
+        "rootDir": "src", 
+        "removeComments": true, 
+        "outDir": "js",
+        "sourceMap": true,
+        "outFile": "./build/io.lazy-loader.js"
+    }
+}
